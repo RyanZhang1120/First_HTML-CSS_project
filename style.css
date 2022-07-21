@@ -1,0 +1,291 @@
+h3{
+  display: inline;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.bar
+{
+  position: fixed;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  margin-top: -10px;
+  z-index:1;
+}
+a:link{
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+
+#signinimage
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.login
+{
+  border: 1px solid rgb(253, 253, 253);
+  text-align: center;
+  font-size: 12px;
+  width: 300px;
+  position: absolute;
+  top: 120px;
+  left:30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: white;
+}
+
+
+button {
+  background-color: rgb(65, 187, 243);
+  padding: 5px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  margin-top: 7px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: rgb(0, 152, 190); 
+  color: white;
+}
+
+#p1back{
+  width: 97%;
+  margin-top: 65px;
+}
+
+#nike{
+  width: 8%;
+}
+
+.mobile{
+  height: 45px;
+}
+
+footer
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#slogan
+{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.productim
+{
+ width: 90%;
+}
+
+dd{
+  font-size: 10px;
+  margin-top: -15px;
+}
+
+.underline{
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+.products{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+div div div{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.prices{
+  text-align: center;
+  font-size: 23px;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+
+
+  grid-template-areas: 
+   "tools     tools"
+   "tool1     tool1-1"
+   "tool2-2   tool2"
+   "tool3     tool3-3"
+   "tool4-4   tool4"
+}
+div#tools{
+  grid-area: tools;
+}
+
+div#tool1{
+  grid-area: tool1;
+}
+
+div#tool1-1{
+  grid-area: tool1-1;
+}
+
+div#tool2{
+  grid-area: tool2;
+}
+
+div#tool2-2{
+  grid-area: tool2-2;
+}
+
+div#tool3{
+  grid-area: tool3;
+}
+
+div#tool3-3{
+  grid-area: tool3-3;
+}
+
+div#tool4{
+  grid-area: tool4;
+}
+
+div#tool4-4{
+  grid-area: tool4-4;
+}
+
+#toolstop{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.toolimages{
+  width: 300px;
+}
+
+.toolp{
+  font-size: 20px;
+}
+.tooldd{
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.container1
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+
+
+  grid-template-areas: 
+   "supt      supt"
+   "supt1-1   supt1"
+   "supt2     supt2-2"
+   "supt3-3   supt3"
+   "supt4     supt4-4"
+}
+div#supt{
+  grid-area: supt;
+}
+
+div#supt1{
+  grid-area: supt1;
+}
+
+div#supt1-1{
+  grid-area: supt1-1;
+}
+
+div#supt2{
+  grid-area: supt2;
+}
+
+div#supt2-2{
+  grid-area: supt2-2;
+}
+
+div#supt3{
+  grid-area: supt3;
+}
+
+div#supt3-3{
+  grid-area: supt3-3;
+}
+
+div#supt4{
+  grid-area: supt4;
+}
+
+div#supt4-4{
+  grid-area: supt4-4;
+}
+
+#supttop{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.suptimages{
+  width: 300px;
+}
+
+.suptp{
+  font-size: 20px;
+}
+.suptdd{
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#afttop{
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(65, 187, 243);
+}
+#aftp{
+  text-align: center;
+  font-size: 12px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#time1{
+  margin-left: 70px;
+  color: rgb(65, 187, 243);
+}
+#time2{
+  margin-left: 30px;
+  color: rgb(65, 187, 243);
+}
+#time3{
+  color: rgb(65, 187, 243);
+}
+table{
+  margin-top: 50px;
+  text-align: center;
+  table-layout: fixed;
+  width: 725px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.manu{
+  display: inline;
+  font-size: 13px;
+  margin-left: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+}
